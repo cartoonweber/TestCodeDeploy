@@ -1,0 +1,13 @@
+{
+  "name": "TestCircleCI",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha handler.spec.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
