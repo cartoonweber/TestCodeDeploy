@@ -6,5 +6,4 @@ phases:
       - npm install --no-progress --silent
   build:
     commands:
-      - npm run-script lint
       - npm run test
